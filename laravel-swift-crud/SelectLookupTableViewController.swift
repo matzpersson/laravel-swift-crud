@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SelectTableViewController: UITableViewController {
+class SelectLookupTableViewController: UITableViewController {
 
     var rows: [[String:Any]] = []
     var reuseIdentifier = "cellStandard"
@@ -18,20 +18,22 @@ class SelectTableViewController: UITableViewController {
         super.viewDidLoad()
 
         load()
+        
     }
 
     func load() {
         
         let proxy = Proxy()
-        proxy.submit(httpMethod: "GET", route: "/api/jobs", params: [:], resolve: resolve, reject: reject)
+        let route = "/api/lookups/statuses"
+        proxy.submit(httpMethod: "GET", route: route, params: [:], resolve: resolve, reject: reject)
         
     }
 
+    // -- Request callback
     func resolve(json: JSON) {
         
         rows = json.arrayObject! as! [[String: Any]]
         tableView.reloadData()
-        
         
     }
     
@@ -42,14 +44,11 @@ class SelectTableViewController: UITableViewController {
     }
     
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return rows.count
     }
 
@@ -59,9 +58,7 @@ class SelectTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath)
 
         // Configure the cell...
-
         let record = rows[indexPath.row]
-        
         cell.textLabel?.text = record[fieldName] as! String
         
         return cell

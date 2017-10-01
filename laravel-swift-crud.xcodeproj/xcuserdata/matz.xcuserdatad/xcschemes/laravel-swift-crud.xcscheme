@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CCD28ABC1F7DD31D004102C2"
+               BuildableName = "laravel-swift-crud.app"
+               BlueprintName = "laravel-swift-crud"
+               ReferencedContainer = "container:laravel-swift-crud.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CCD28AD01F7DD31D004102C2"
+               BuildableName = "laravel-swift-crudTests.xctest"
+               BlueprintName = "laravel-swift-crudTests"
+               ReferencedContainer = "container:laravel-swift-crud.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CCD28ADB1F7DD31D004102C2"
+               BuildableName = "laravel-swift-crudUITests.xctest"
+               BlueprintName = "laravel-swift-crudUITests"
+               ReferencedContainer = "container:laravel-swift-crud.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CCD28ABC1F7DD31D004102C2"
+            BuildableName = "laravel-swift-crud.app"
+            BlueprintName = "laravel-swift-crud"
+            ReferencedContainer = "container:laravel-swift-crud.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CCD28ABC1F7DD31D004102C2"
+            BuildableName = "laravel-swift-crud.app"
+            BlueprintName = "laravel-swift-crud"
+            ReferencedContainer = "container:laravel-swift-crud.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CCD28ABC1F7DD31D004102C2"
+            BuildableName = "laravel-swift-crud.app"
+            BlueprintName = "laravel-swift-crud"
+            ReferencedContainer = "container:laravel-swift-crud.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

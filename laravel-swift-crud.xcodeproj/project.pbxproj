@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC7085C01F806E3F0053E28A /* SelectLookupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7085BF1F806E3F0053E28A /* SelectLookupTableViewController.swift */; };
 		CCD28AC11F7DD31D004102C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AC01F7DD31D004102C2 /* AppDelegate.swift */; };
-		CCD28AC31F7DD31D004102C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AC21F7DD31D004102C2 /* ViewController.swift */; };
 		CCD28AC61F7DD31D004102C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD28AC41F7DD31D004102C2 /* Main.storyboard */; };
 		CCD28AC81F7DD31D004102C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD28AC71F7DD31D004102C2 /* Assets.xcassets */; };
 		CCD28ACB1F7DD31D004102C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD28AC91F7DD31D004102C2 /* LaunchScreen.storyboard */; };
 		CCD28AD61F7DD31D004102C2 /* laravel_swift_crudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AD51F7DD31D004102C2 /* laravel_swift_crudTests.swift */; };
 		CCD28AE11F7DD31D004102C2 /* laravel_swift_crudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AE01F7DD31D004102C2 /* laravel_swift_crudUITests.swift */; };
+		CCD28AF11F7DD656004102C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AF01F7DD656004102C2 /* LoginViewController.swift */; };
+		CCD28AF31F7DD667004102C2 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AF21F7DD667004102C2 /* RegistrationViewController.swift */; };
+		CCD28AF51F7DD68E004102C2 /* JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AF41F7DD68E004102C2 /* JobsTableViewController.swift */; };
+		CCD28AF71F7DD699004102C2 /* JobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AF61F7DD699004102C2 /* JobTableViewController.swift */; };
+		CCD28AF91F7DDC56004102C2 /* JobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AF81F7DDC55004102C2 /* JobsTableViewCell.swift */; };
+		CCD28AFF1F7DDD1F004102C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AFD1F7DDD1F004102C2 /* Extensions.swift */; };
+		CCD28B001F7DDD1F004102C2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28AFE1F7DDD1F004102C2 /* SwiftyJSON.swift */; };
+		CCD28B021F7DDD4B004102C2 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28B011F7DDD4B004102C2 /* Proxy.swift */; };
+		CCD28B061F7DDE29004102C2 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD28B051F7DDE29004102C2 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC7085BF1F806E3F0053E28A /* SelectLookupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLookupTableViewController.swift; sourceTree = "<group>"; };
 		CCD28ABD1F7DD31D004102C2 /* laravel-swift-crud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "laravel-swift-crud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD28AC01F7DD31D004102C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCD28AC21F7DD31D004102C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCD28AC51F7DD31D004102C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCD28AC71F7DD31D004102C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCD28ACA1F7DD31D004102C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		CCD28ADC1F7DD31D004102C2 /* laravel-swift-crudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "laravel-swift-crudUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD28AE01F7DD31D004102C2 /* laravel_swift_crudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laravel_swift_crudUITests.swift; sourceTree = "<group>"; };
 		CCD28AE21F7DD31D004102C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD28AF01F7DD656004102C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CCD28AF21F7DD667004102C2 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		CCD28AF41F7DD68E004102C2 /* JobsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewController.swift; sourceTree = "<group>"; };
+		CCD28AF61F7DD699004102C2 /* JobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTableViewController.swift; sourceTree = "<group>"; };
+		CCD28AF81F7DDC55004102C2 /* JobsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewCell.swift; sourceTree = "<group>"; };
+		CCD28AFD1F7DDD1F004102C2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CCD28AFE1F7DDD1F004102C2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CCD28B011F7DDD4B004102C2 /* Proxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		CCD28B051F7DDE29004102C2 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +115,12 @@
 		CCD28ABF1F7DD31D004102C2 /* laravel-swift-crud */ = {
 			isa = PBXGroup;
 			children = (
+				CCD28AFA1F7DDCC6004102C2 /* classes */,
+				CCD28AEF1F7DD633004102C2 /* controllers */,
+				CCD28AEE1F7DD33C004102C2 /* storyboards */,
+				CCD28B051F7DDE29004102C2 /* Config.swift */,
 				CCD28AC01F7DD31D004102C2 /* AppDelegate.swift */,
-				CCD28AC21F7DD31D004102C2 /* ViewController.swift */,
-				CCD28AC41F7DD31D004102C2 /* Main.storyboard */,
 				CCD28AC71F7DD31D004102C2 /* Assets.xcassets */,
-				CCD28AC91F7DD31D004102C2 /* LaunchScreen.storyboard */,
 				CCD28ACC1F7DD31D004102C2 /* Info.plist */,
 			);
 			path = "laravel-swift-crud";
@@ -123,6 +142,54 @@
 				CCD28AE21F7DD31D004102C2 /* Info.plist */,
 			);
 			path = "laravel-swift-crudUITests";
+			sourceTree = "<group>";
+		};
+		CCD28AEE1F7DD33C004102C2 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CCD28AC41F7DD31D004102C2 /* Main.storyboard */,
+				CCD28AC91F7DD31D004102C2 /* LaunchScreen.storyboard */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
+		CCD28AEF1F7DD633004102C2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCD28AF01F7DD656004102C2 /* LoginViewController.swift */,
+				CCD28AF21F7DD667004102C2 /* RegistrationViewController.swift */,
+				CCD28AF41F7DD68E004102C2 /* JobsTableViewController.swift */,
+				CCD28AF61F7DD699004102C2 /* JobTableViewController.swift */,
+				CCD28AF81F7DDC55004102C2 /* JobsTableViewCell.swift */,
+				CC7085BF1F806E3F0053E28A /* SelectLookupTableViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		CCD28AFA1F7DDCC6004102C2 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCD28AFC1F7DDCE3004102C2 /* models */,
+				CCD28AFB1F7DDCDB004102C2 /* utilities */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		CCD28AFB1F7DDCDB004102C2 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CCD28AFD1F7DDD1F004102C2 /* Extensions.swift */,
+				CCD28AFE1F7DDD1F004102C2 /* SwiftyJSON.swift */,
+				CCD28B011F7DDD4B004102C2 /* Proxy.swift */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		CCD28AFC1F7DDCE3004102C2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCD28AC31F7DD31D004102C2 /* ViewController.swift in Sources */,
+				CCD28AF11F7DD656004102C2 /* LoginViewController.swift in Sources */,
+				CCD28B021F7DDD4B004102C2 /* Proxy.swift in Sources */,
+				CCD28AF31F7DD667004102C2 /* RegistrationViewController.swift in Sources */,
+				CC7085C01F806E3F0053E28A /* SelectLookupTableViewController.swift in Sources */,
+				CCD28AF51F7DD68E004102C2 /* JobsTableViewController.swift in Sources */,
+				CCD28B061F7DDE29004102C2 /* Config.swift in Sources */,
+				CCD28B001F7DDD1F004102C2 /* SwiftyJSON.swift in Sources */,
+				CCD28AF91F7DDC56004102C2 /* JobsTableViewCell.swift in Sources */,
+				CCD28AF71F7DD699004102C2 /* JobTableViewController.swift in Sources */,
 				CCD28AC11F7DD31D004102C2 /* AppDelegate.swift in Sources */,
+				CCD28AFF1F7DDD1F004102C2 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NG7TZLJ4YK;
 				INFOPLIST_FILE = "laravel-swift-crud/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.headstation.laravel-swift-crud";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NG7TZLJ4YK;
 				INFOPLIST_FILE = "laravel-swift-crud/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.headstation.laravel-swift-crud";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +592,7 @@
 				CCD28AE71F7DD31D004102C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCD28AE81F7DD31D004102C2 /* Build configuration list for PBXNativeTarget "laravel-swift-crudTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +601,7 @@
 				CCD28AEA1F7DD31D004102C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCD28AEB1F7DD31D004102C2 /* Build configuration list for PBXNativeTarget "laravel-swift-crudUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +610,7 @@
 				CCD28AED1F7DD31D004102C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
