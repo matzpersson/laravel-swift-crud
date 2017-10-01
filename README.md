@@ -13,5 +13,4 @@ This application can connect to any REST API but has been developed using <a hre
 Simple. Goto Config.swift and set your server IP Address and port.
 
 ## Screen Shots
-![ScreenShot1](./shot1.png)
-![ScreenShot2](./shot2.png)
+![ScreenShot1](./shot1.jpg)   ![ScreenShot2](./shot2.jpg)
