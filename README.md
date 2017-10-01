@@ -13,6 +13,8 @@ This application can connect to any REST API but has been developed using <a hre
 Simple. Goto Config.swift and set your server IP Address and port.
 
 ## Screen Shots
+Screen shot of login page and listview of Jobs:
+
 <p align="center">
   <img src="./shot1.jpg" width="200"/>
   <img src="shot2.jpg" width="200"/>
