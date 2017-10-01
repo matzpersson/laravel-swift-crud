@@ -1,6 +1,8 @@
 <p align="center">
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
+![License](https://img.shields.io/github/license/JakeLin/SwiftWeather.svg?style=flat)
 </p>
 
 ## Swift to Laravel REST Api
